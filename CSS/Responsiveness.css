@@ -31,8 +31,9 @@
   }
   main {
     width: 100%;
-    top: -1.9rem;
+    top: -2rem;
     position: absolute;
+    transform: scale(1);
   }
   .Result h1 {
     padding-top: 2.5rem;
