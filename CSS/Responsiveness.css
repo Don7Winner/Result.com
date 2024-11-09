@@ -1,3 +1,8 @@
+@media (max-width: 983px) {
+  main {
+    width: 70%;
+  }
+}
 @media (max-width: 768px) {
   main {
     width: 80%;
@@ -7,10 +12,13 @@
   body {
     margin: 0;
     padding: 0;
+    /* position: relative; */
   }
   main {
     flex-direction: column;
-    transform: scale(1);
+    /* transform: scale(1); */
+    top: -1rem;
+    /* position: absolute; */
   }
   .Result h1 {
     padding-top: 3rem;
