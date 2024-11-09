@@ -4,6 +4,28 @@
   }
 }
 @media (max-width: 720px) {
+  body {
+    margin: 0;
+  }
+  main {
+    flex-direction: column;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    top: 0;
+  }
+  .Result {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .Summary {
+    padding: 0 2rem;
+  }
+  .summary-width {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
   main {
     width: 100%;
   }
