@@ -9,17 +9,12 @@
   }
   main {
     flex-direction: column;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    overflow: hidden;
-    top: 0;
   }
-  .Result {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+  .Result h1 {
+    padding-top: 3rem;
   }
   .Summary {
-    padding: 0 2rem;
+    padding: 0 2rem 2rem 2rem;
   }
   .summary-width {
     width: 100%;
@@ -36,7 +31,7 @@
     transform: scale(1);
   }
   .Result h1 {
-    padding-top: 2.5rem;
+    padding-top: 3rem;
   }
   .Summary {
     padding-bottom: 2rem;
